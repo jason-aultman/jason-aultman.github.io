@@ -22,17 +22,35 @@ header{
     
     display: grid;
     grid-template-rows: 100%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     /* grid-row-start: 1;
     grid-row-end:  span 2;
     grid-column-start: 1;
     grid-column-end: span 9; */
 }
-
+.titleElement{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36pt;
+    color: purple;
+}
 .sticky{
     position: fixed;
     top: 0;
     width: 100%
+}
+.innerBody{
+    grid-column-start: 2;
+    grid-column-end: span 7;
+    grid-row-start:2;
+    grid-row-end: span 5;
+    overflow: scroll;
+}
+#background-black{
+    z-index: 1;
+    background-color: black;
+}
+.underline{
+    text-decoration: underline;
 }
 
 #header-left{
@@ -43,7 +61,14 @@ header{
 #header-right{
     display:grid;
     grid-row: 1/span 1;
-    grid-column: 2/span 1;
+    grid-column: 3/span 1;
+
+}
+#header-center{
+    display:grid;
+    grid-row: 1/span 1;
+    grid-column:2/span 1;
+
 }
 .grid{
     display: grid;
@@ -52,32 +77,9 @@ header{
     grid-gap: 10px 15px;
  
 }
-.a{
-    grid-column-start: 3;
-    grid-column-end: span 2;
-
-    grid-row-start: 1;
-    grid-row-end: span 1;
-    height: 200px;
+.bordered{
+    border: solid 2px white;
 }
-.b{
-    display:block;
-    grid-column: 1/span 1;
-    grid-row: 1/span 1;
-    
-   
-}
-.c{
-    
-    grid-column-start: auto;
-    grid-row-start: auto;
-}
-
-
-  
-    
-    
-
 .box{
     border: 3px;
     background-color: beige;
@@ -93,6 +95,12 @@ p{
 h1{
     margin: 10px;
 }
-footer{
-    color: white;
+.a
+{
+    grid-area: 8/2/span 2/span 2;
+}
+img{
+    border: 4px lightyellow solid;
+    max-width: 100px;
+    height: auto;
 }
