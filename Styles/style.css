@@ -1,3 +1,57 @@
+*{
+   
+}
+body{
+    background-image: url("../Resources/index-background2.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
 nav{
+font-size: x-large;    
+
+}
+header{
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+    color: rgb(158, 32, 102);
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 50% auto;
+    grid-gap: 10px 15px;
+    border: 2px rgba(7, 7, 36, 0.466) solid; 
+   /*  height: auto;
+    width: auto;*/
+}
+.a{
+    grid-column-start: 2;
+    grid-row: 1 1;
+}
+.b{
+    grid-column-start: 1;
+    grid-row: 1 1;
+    tex
+    width: 20%;
+    height: auto;
+}
+.c{
     
+    grid-column-start: auto;
+    grid-row-start: auto;
+}
+
+div .grid-body{
+    display: grid;
+    grid-template-columns: 20% 60% auto;
+    grid-template-rows: auto;
+    grid-gap: 10px 15px;
+
+}
+p{
+    color: white;
+}
+#white{
+    color: white;
 }
