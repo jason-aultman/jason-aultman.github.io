@@ -21,7 +21,7 @@ header{
     display: grid;
     grid-template-columns: 25% 50% auto;
     grid-gap: 10px 15px;
-    border: 2px rgba(7, 7, 36, 0.466) solid; 
+    border: 2px rgb(7, 7, 36) solid; 
    /*  height: auto;
     width: auto;*/
 }
@@ -32,7 +32,7 @@ header{
 .b{
     grid-column-start: 1;
     grid-row: 1 1;
-    tex
+    
     width: 20%;
     height: auto;
 }
