@@ -1,8 +1,12 @@
-
+.font-pinion{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 36pt;
+    color: rgb(38, 4, 161)
+}
 body{
-    background-image: url("../Resources/index-background2.jpg");
-    background-size: cover;
-    background-blend-mode: soft-light;
+    background-image: url("/Resources/black-leather.jpg");
+    background-size: cover; 
+   
 }
 nav{
 font-size: x-large;    
@@ -89,6 +93,9 @@ header{
 p{
     color: white;
 }
+#beige{
+    color: beige;
+}
 #white{
     color: white;
 }
@@ -101,6 +108,13 @@ h1{
 .b{
     grid-area:8/4/span 1/span 1;
 }
+.c{
+    grid-area:8/6/span 1/span 1;
+}
+.d{
+    grid-area:8/8/span 1/span 1;
+}
+
 img{
     border: 4px lightyellow solid;
     max-width: 100px;
