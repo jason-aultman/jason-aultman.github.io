@@ -95,9 +95,11 @@ p{
 h1{
     margin: 10px;
 }
-.a
-{
-    grid-area: 8/2/span 2/span 2;
+.a{
+    grid-area: 8/2/span 1/span 1;
+}
+.b{
+    grid-area:8/4/span 1/span 1;
 }
 img{
     border: 4px lightyellow solid;
