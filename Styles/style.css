@@ -1,8 +1,20 @@
 .font-pinion{
     font-family: 'Pinyon Script', cursive;
-    font-size: 36pt;
+    font-size: 120pt;
     color:rgb(119, 141, 169);
 }
+.font-pinion-small{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 32pt;
+    color: red;
+}
+.font-button-enter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42pt;
+    color: darkred;
+    text-decoration: underline;
+}
+
 
 body{
     background-image: url("/Resources/black-leather.jpg");
@@ -28,6 +40,12 @@ header{
     font-size: 48pt;
     color:rgb(229, 233, 236);
 }
+.name .font-pinion
+{
+    font-family: 'Pinyon Script', cursive;
+    color:rgb(119, 141, 169);
+    font-size: 72pt;
+}
 .sticky{
     position: fixed;
     top: 0;
@@ -35,9 +53,38 @@ header{
 }
 .innerBody{
     grid-column-start: 3;
-    grid-column-end: span 5;
+    grid-column-end: span 3;
     grid-row-start:2;
-    grid-row-end: span 4;
+    grid-row-end: span 2;
+    
+}
+.outerBody{
+    grid-column-start: 4;
+    grid-column-end: span 4;
+    grid-row-start:4;
+    grid-row-end: span 2;
+    
+}
+.outerBodySubtext{
+    grid-column-start: 7;
+    grid-column-end: span 3;
+    grid-row-start:5;
+    grid-row-end: span 1;
+}
+.outerBodyButton{
+    grid-row-start: 6;
+    grid-row-end:span 1;
+    grid-column-start: 8;
+    grid-column-end:span 1;
+    text-align: center;
+    background-color: black;
+    border: solid;
+    border-style: groove;
+    border-color: darkred;
+    border-radius: 30px;
+}
+.scroll
+{
     overflow: scroll;
 }
 
@@ -112,7 +159,7 @@ img{
 footer{
     font-size: larger;
     text-justify: distribute;
-    background-color: bisque;
+    
 }
 h5{
     margin-top: 2px;
