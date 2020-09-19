@@ -8,6 +8,9 @@ body{
     background-image: url("/Resources/black-leather.jpg");
     background-size: cover; 
 }
+body div .a{
+    grid-area: 4/4/span 2/span2;
+}
 
 header{   
     display: grid;
@@ -44,12 +47,6 @@ header{
 .underline{
     text-decoration: underline;
 }
-#text-align-right{
-    text-align: right;
-}
-#text-align-center{
-    text-align: center;
-}
 
 #header-left{
     display: grid;
@@ -75,6 +72,9 @@ header{
     grid-gap: 10px 15px;
  
 }
+.icon-margin{
+    margin-right: 20px;
+}
 .bordered{
     border: solid 2px white;
 }
@@ -91,28 +91,15 @@ p{
 h1{
     margin: 10px;
 }
-.a{
-    grid-area: 8/2/span 1/span 1;
-}
-.b{
-    grid-area:8/4/span 1/span 1;
-}
-.c{
-    grid-area:8/6/span 1/span 1;
-}
-.d{
-    grid-area:8/8/span 1/span 1;
-}
 
 img{
-    
+    border: 4px lightyellow solid;
     max-width: 100px;
     height: auto;
 }
 footer{
     font-size: larger;
-    text-justify: distribute;
-    background-color: bisque;
+    text-align: right;
 }
 h5{
     margin-top: 2px;
