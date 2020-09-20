@@ -9,7 +9,25 @@ body{
     background-size: cover; 
 }
 body div .a{
-    grid-area: 4/4/span 2/span2;
+    grid-area: 4/17/span 10/span 2;
+}
+body div .b{
+    grid-area: 3/4/span 4/span 4;
+}
+body div .c{
+    grid-area: 3/8/span 4/span 6;
+}
+body div .d{
+    grid-area: 8/8/span 3/span 4;
+}
+body div .e{
+    grid-area: 8/4/span 4/span 4;
+}
+body div .f{
+    grid-area: 12/8/span 2/span 6;
+}
+body div .g{
+    grid-area: 12/1/span 5/span 5;
 }
 
 header{   
@@ -66,12 +84,18 @@ header{
 
 }
 .grid{
+    height: 2000px;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(9, 100px);
-    grid-gap: 10px 15px;
- 
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    gap: 10px 15px;
 }
+
+ #image-about{
+     width: 300px;
+     height: auto;
+ } 
+
 .icon-margin{
     margin-right: 20px;
 }
@@ -94,8 +118,10 @@ h1{
 
 img{
     border: 4px lightyellow solid;
-    max-width: 100px;
     height: auto;
+}
+.constrained{
+    max-width: 100px;
 }
 footer{
     font-size: larger;
@@ -104,4 +130,10 @@ footer{
 h5{
     margin-top: 2px;
     margin-bottom: 5px;
+}
+#text-align-right{
+    text-align: right;
+}
+#text-align-center{
+    text-align: center;
 }

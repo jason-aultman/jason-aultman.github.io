@@ -1,0 +1,150 @@
+.font-pinion{
+    font-family: 'Pinyon Script', cursive;
+    
+    color:rgb(113, 6, 146);
+}
+.font-superlarge{
+    font-size: 120pt;
+}
+body{
+    background-image: url("/Resources/black-leather.jpg");
+    background-size: cover; 
+}
+section{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  
+    gap: 4px;
+   
+}
+.project1{
+    
+    grid-area: 2/2/span 1/span 1;
+    border:solid 1px whitesmoke;
+}
+.project2{
+    grid-area: 3/2/span 1/span 1;
+    border:solid 1px whitesmoke;
+
+}
+.project3{
+    grid-area: 2/3/span 1/span 1;
+    border:solid 1px whitesmoke;
+
+}.project4{
+    grid-area: 3/3/span 1/span 1;
+    border:solid 1px whitesmoke;
+
+}
+
+
+
+header{   
+    display: grid;
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: rgb(150, 174, 211);
+}
+
+#grid-header{
+    
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.titleElement{
+    font-family: 'Dancing Script', cursive;
+    font-size: 48pt;
+    color:rgb(229, 233, 236);
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.innerBody{
+    grid-column-start: 3;
+    grid-column-end: span 5;
+    grid-row-start:2;
+    grid-row-end: span 4;
+    overflow: scroll;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+#header-left{
+    display: grid;
+    grid-row: 1/span 1;
+    grid-column: 1/span 1;
+}
+#header-right{
+    display:grid;
+    grid-row: 1/span 1;
+    grid-column: 3/span 1;
+
+}
+#header-center{
+    display:grid;
+    grid-row: 1/span 1;
+    grid-column:2/span 1;
+
+}
+.grid{
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 1fr;
+    grid-template-rows: 25% 25% 25% 1fr;
+    gap: 20px;
+}
+
+ #image-about{
+     width: 300px;
+     height: auto;
+ } 
+
+.icon-margin{
+    margin-right: 20px;
+}
+.bordered{
+    border: solid 2px white;
+}
+
+p{
+    color: white;
+}
+#beige{
+    color: rgb(224, 225, 221);
+}
+#white{
+    color: white;
+}
+h1{
+    margin: 10px;
+}
+
+img{
+    border: 4px lightyellow solid;
+    height: auto;
+}
+.constrained{
+    max-width: 100px;
+}
+footer{
+    font-size: larger;
+    text-align: right;
+}
+h5{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+#text-align-right{
+    text-align: right;
+}
+#text-align-center{
+    text-align: center;
+}
